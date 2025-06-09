@@ -1,0 +1,9 @@
+kbc_table_event_id,table_id,event_created_at,event,event_type,message,params,kbc_token_id,kbc_project_id
+evt_001,in.c-sales.customers,2024-12-02T09:58:00Z,storage.tableCreated,table,Table customers created with 1250 rows,"{""rowCount"":1250}",155991_kbc-eu-central-1,12345_kbc-eu-central-1
+evt_002,in.c-sales.orders,2024-12-02T09:59:00Z,storage.tableCreated,table,Table orders created with 3420 rows,"{""rowCount"":3420}",155991_kbc-eu-central-1,12345_kbc-eu-central-1
+evt_003,in.c-sales.products,2024-12-02T09:59:30Z,storage.tableCreated,table,Table products created with 89 rows,"{""rowCount"":89}",155991_kbc-eu-central-1,12345_kbc-eu-central-1
+evt_004,in.c-sales.customers,2024-12-02T10:15:00Z,storage.tableDataPreview,preview,Data preview requested for customers table,"{""previewSize"":100}",155991_kbc-eu-central-1,12345_kbc-eu-central-1
+evt_005,in.c-sales.orders,2024-12-02T10:16:00Z,storage.tableDataPreview,preview,Data preview requested for orders table,"{""previewSize"":100}",155991_kbc-eu-central-1,12345_kbc-eu-central-1
+evt_006,out.customer_summary,2024-12-02T11:37:30Z,storage.tableCreated,table,Customer summary transformation output created,"{""rowCount"":1250}",155991_kbc-eu-central-1,12345_kbc-eu-central-1
+evt_007,out.customer_summary,2024-12-02T11:38:00Z,storage.tableExported,export,Customer summary exported to Snowflake,"{""destination"":""ANALYTICS.RAW.customer_summary""}",155991_kbc-eu-central-1,12345_kbc-eu-central-1
+evt_008,in.c-inventory.products,2024-12-02T14:25:00Z,storage.tableImportError,error,Failed to import MongoDB products collection,"{""error"":""connection_failed""}",155991_kbc-eu-central-1,12345_kbc-eu-central-1 

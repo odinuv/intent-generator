@@ -1,0 +1,9 @@
+kbc_job_id,kbc_component_configuration_id,job_start_at,job_created_at,job_status,error_type,error_message,error_message_short,kbc_token_id,kbc_project_id
+job_001,12345_kbc-eu-central-1_keboola.ex-mysql_001,2024-12-02T09:55:00Z,2024-12-02T09:57:00Z,success,,,MySQL extraction completed successfully,155991_kbc-eu-central-1,12345_kbc-eu-central-1
+job_002,12345_kbc-eu-central-1_keboola.wr-snowflake_002,2024-12-02T10:45:00Z,2024-12-02T10:48:00Z,success,,,Snowflake write completed successfully,155991_kbc-eu-central-1,12345_kbc-eu-central-1
+job_003,12345_kbc-eu-central-1_transformation.sql_003,2024-12-02T11:10:00Z,2024-12-02T11:11:00Z,error,user,SQL compilation error: error line 1 at position 95 invalid identifier 'date',SQL compilation error,155991_kbc-eu-central-1,12345_kbc-eu-central-1
+job_004,12345_kbc-eu-central-1_transformation.sql_003,2024-12-02T11:35:00Z,2024-12-02T11:37:00Z,success,,,Transformation completed successfully,155991_kbc-eu-central-1,12345_kbc-eu-central-1
+job_005,12345_kbc-eu-central-1_keboola.ex-mongodb_004,2024-12-02T14:25:00Z,2024-12-02T14:25:30Z,error,user,Server at 127.0.0.1:33006 reports wire version 6 but this version requires at least 7,MongoDB connection error,155991_kbc-eu-central-1,12345_kbc-eu-central-1
+job_006,12345_kbc-eu-central-1_keboola.ex-mongodb_004,2024-12-02T14:50:00Z,2024-12-02T14:50:30Z,error,user,Server at 127.0.0.1:33006 reports wire version 6 but this version requires at least 7,MongoDB connection error,155991_kbc-eu-central-1,12345_kbc-eu-central-1
+job_007,12345_kbc-eu-central-1_keboola.ex-mongodb_004,2024-12-02T15:05:00Z,2024-12-02T15:05:30Z,error,user,Server at 127.0.0.1:33006 reports wire version 6 but this version requires at least 7,MongoDB connection error,155991_kbc-eu-central-1,12345_kbc-eu-central-1
+job_008,12345_kbc-eu-central-1_keboola.wr-snowflake_002,2024-12-02T11:40:00Z,2024-12-02T11:43:00Z,success,,,Final Snowflake write completed,155991_kbc-eu-central-1,12345_kbc-eu-central-1 

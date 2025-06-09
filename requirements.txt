@@ -1,0 +1,4 @@
+snowflake-connector-python==3.6.0
+python-dotenv==1.0.0
+google-generativeai==0.3.2
+pandas==2.2.0 
